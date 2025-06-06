@@ -32,7 +32,7 @@ function App() {
 
   return (
     <main>
-      <h1>My todos</h1>
+      <h1>My tasks</h1>
       <button onClick={createTodo}>+ new</button>
       <ul>
         {todos.map((todo) => (
